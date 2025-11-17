@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website Tutorials </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <img src="bg.jpg" class="Logo" class="logo" height="50px" width="50px">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi I'm <Span>Kelvin</span> From Sparnish</h1>
+                <h3>Welcome to My Portfolio</h3>
+            </div>     
+        </div>
+    </div>
+      <div id="About">
+    <!-- About Section -->
+        <div class="container">
+            <div class="row"> 
+                <div class="about-col-1">
+                    <img src="kid.png" alt="Kelvin Sparnish">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! My name is Kelvin From Sparnish, and I am a passionate UI/UX designer with a knack for creating intuitive and visually appealing digital experiences. With a background in graphic design and a keen eye for detail, I specialize in crafting user-centered designs that not only look great but also function seamlessly.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <h3>Skills</h3>
+                        <ul>                           
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>app Development</span><br>Building Androids/ios apps</li>
+                        </ul>   
+                   </div>
+                   <div class="tab-contents" id="Experience">
+                        <h3>Experience</h3>
+                        <ul>
+                            <li><span>2021 - Current</span><br>UI/UX Design Training at Sparnish Academy</li>
+                            <li><span>2019 - 2021</span><br>Team Lead at StarApp LLC.</li>
+                            <li><span>2017 - 2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                            <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+                        </ul>   
+                   </div>
+                   <div class="tab-contents" id="Education">
+                        <h3>Education</h3>
+                        <ul>
+                            <li><span>2016</span><br>UI/UX design Training at ET Institute</li>
+                            <li><span>2016</span><br>MBA from MIT Bangalore.</li>
+                            <li><span>2014</span><br>BBA from ISM Bangalore.</li>
+                        </ul>   
+                   </div>
+            </div>
+        </div>
+      </div>
+      <!-------Services-------------- -->
+      <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ducimus cupiditate vitae? Quos nostrum earum in assumenda modi? Adipisci, soluta iste ipsa minima quaerat excepturi voluptatem voluptate? Impedit, eum magni.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI//UX Design</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ducimus cupiditate vitae? Quos nostrum earum in assumenda modi? Adipisci, soluta iste ipsa minima quaerat excepturi voluptatem voluptate? Impedit, eum magni.</p>
+                <a href="#">Learn More</a>  
+            </div>
+            <div>
+                <i class="fa-regular fa-command"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ducimus cupiditate vitae? Quos nostrum earum in assumenda modi? Adipisci, soluta iste ipsa minima quaerat excepturi voluptatem voluptate? Impedit, eum magni.</p>
+                <a href="#">Learn More</a>
+            </div>
+            </div>
+        </div>
+       </div>
+       <!------portfolio------- -->
+       <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="onlinepic.png"> 
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store</p>
+                        <a href="#">View More</a>
+                    </div>          
+                </div> 
+                <div class="work">
+                    <img src="onlinepic.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store</p>
+                        <a href="#">View More</a>
+                    </div>    
+                </div> 
+                <div class="work">
+                    <img src="onlinepic.png">
+                    <div class="layer">
+                        <h3>Online Shopping  App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store</p>
+                        <a href="#">View More</a>
+                    </div>    
+                </div>
+            </div>
+            <a href="#" class="btn">View All</a>
+        </div>
+       </div> 
+       <!-------contact------- -->
+       <div id="contact">
+        <div class="container">   
+            <div class="row">
+                <div class="contact-left">
+                    <div class="contact-left">
+                      <h1 class="sub-title">Contact Me</h1>
+                      <p>contact@example.com</p>
+                      <p>+123 456 7890</p>
+                      <div class="social-icons">
+                       <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                              <a href="#"><i class="fa-brands fa-instagram"></i></a> 
+                      </div>
+                      <a href="onlinepic.png" download class="btn btn2">Download CV</a>
+                    </div>    
+                    <div class="contact-right">
+                        <form action="https://formspree.io/f/xkgkekob" method="POST">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn2">submit</button>
+                        </form>
+                    </div>    
+                    
+                </div>
+
+                </div>
+
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy; 2024 Kelvin Sparnish. All rights reserved.</p>
+                </div>
+            </div>          
+                <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+      </script>
+      <script>
+        var sidemeu = document.getElementsById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            siidemenu.style.right = "-200px";
+        }
+        </script>
+</body>
+</html>
